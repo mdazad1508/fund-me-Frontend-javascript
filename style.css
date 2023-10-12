@@ -1,16 +1,19 @@
 * {
   background-color: #016a70;
   font-family: "poppins";
-  height: 100vh;
+  margin: 0;
+  padding: 0;
+  
 }
 
 .bdy {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
   flex-direction: column;
   align-items: center;
   color: #ffffdd;
+  padding: 100px;
+  min-height: 65vh;
 }
 
 .btn {

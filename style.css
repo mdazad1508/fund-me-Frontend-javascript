@@ -1,0 +1,63 @@
+* {
+  background-color: #016a70;
+  font-family: "poppins";
+}
+
+.bdy {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffdd;
+}
+
+.btn {
+  padding: 7px 15px;
+  border-radius: 0.3rem;
+  color: rgb(41, 39, 39);
+  background-color: #d2de32;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background-color: #d9e810;
+}
+
+.btn:active {
+  background-color: #d2de32;
+}
+
+.fundInput {
+  /* Basic input styles */
+  width: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-top: 20px;
+
+  /* Adjust appearance of the number input */
+  /* Remove the up and down arrows for number inputs (if needed) */
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+  appearance: textfield;
+
+  /* Set a background color when the input is focused */
+  outline: none;
+  background-color: #f0f0f0;
+
+  /* Add some box shadow for a subtle effect */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the input when it is in a focused state (clicked or selected) */
+.fundInput:focus {
+  border: 1px solid #007bff; /* Change the border color when focused */
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+}
